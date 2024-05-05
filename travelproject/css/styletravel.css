@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#page-logo a{
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: rgb(245, 243, 160);
+    padding: 10px;
+    text-decoration: none;/*xóa dấu gạch chân*/
+    text-transform: uppercase;/*viết hoa toàn bộ*/
+    text-shadow: 1px 1px 2px black;/*đổ bóng*/
+}
+
+#page-logo{
+    padding: 5px;
+    width: 40%;
+}
+
+header nav{
+   
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;/*chỉnh về cuối*/
+   
+}
+
+header nav ul
+{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    text-align: right;
+}
+header nav ul li a
+{
+    text-decoration: none;
+    margin-left: 10px;
+    color: yellow;
+}
+
+
+#hero{
+    height: 600px;
+    background-image: url("/travelproject/images/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content{
+    width: 800px;
+    background-color: rgba(51, 47, 47, 0.8);
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px 0;
+    margin: 0 auto;
+}
